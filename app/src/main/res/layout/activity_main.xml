@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:baselineAligned="false"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/main_frame_margin">
+
+        <TextView
+            android:id="@+id/txthead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/main_title_top_botton_margin"
+            android:layout_marginBottom="@dimen/main_title_top_botton_margin"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/main_screen_title"
+            android:textAlignment="viewStart"
+            android:textColor="@color/black"
+            android:textSize="@dimen/your_recordings_title_size"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="12dp" />
+
+        <TextView
+            android:id="@+id/noRecordingsTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="@string/no_recordings"
+            android:gravity="center_horizontal"
+            android:textSize="@dimen/no_recordings_text_size"
+            android:layout_marginLeft="@dimen/no_recordings_top_margin"
+            android:layout_marginRight="@dimen/no_recordings_leftright_margin"
+            android:layout_marginTop="@dimen/no_recordings_leftright_margin"
+            />
+
+        <ScrollView
+            android:id="@+id/scroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintTop_toBottomOf="@+id/txthead">
+
+            <LinearLayout
+                android:id="@+id/mainMenuScrollLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/main_frame_margin"
+        tools:layout_editor_absoluteX="-29dp"
+        tools:layout_editor_absoluteY="56dp">
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/micButtton"
+            style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+            android:layout_width="@dimen/mic_button_diametr"
+            android:layout_height="@dimen/mic_button_diametr"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="@dimen/main_bottom_margin"
+            android:backgroundTint="@color/blue"
+            app:cornerRadius="@dimen/mic_button_radius"
+            app:icon="@drawable/baseline_mic_24"
+            app:iconGravity="textStart"
+            app:iconPadding="1dp"
+
+            app:iconTint="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

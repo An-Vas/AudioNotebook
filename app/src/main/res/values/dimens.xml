@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="main_frame_margin">12dp</dimen>
+    <dimen name="main_bottom_margin">18dp</dimen>
+    <dimen name="main_top_text_margin">8dp</dimen>
+    <dimen name="main_leftright_text_margin">16dp</dimen>
+    <dimen name="main_bottom_text_margin">8dp</dimen>
+    <dimen name="main_between_record_info_margin">14dp</dimen>
+    <dimen name="main_title_top_botton_margin">14dp</dimen>
+
+    <dimen name="recordinfo_left_button_margin">20dp</dimen>
+    <dimen name="recordinfo_between_text_margin">3dp</dimen>
+    <dimen name="recorder_info_view_background_corner_radius">12dp</dimen>
+
+    <dimen name="no_recordings_leftright_margin">20dp</dimen>
+    <dimen name="no_recordings_top_margin">16dp</dimen>
+
+
+    <dimen name="mic_button_radius">30dp</dimen>
+    <dimen name="mic_button_diametr">60dp</dimen>
+    <dimen name="play_button_radius">17dp</dimen>
+    <dimen name="play_button_icon_size">23dp</dimen>
+    <dimen name="play_button_diametr">34dp</dimen>
+
+    <dimen name="record_title_size">20sp</dimen>
+    <dimen name="record_date_size">17sp</dimen>
+    <dimen name="record_time_size">14sp</dimen>
+    <dimen name="your_recordings_title_size">30sp</dimen>
+    <dimen name="no_recordings_text_size">18sp</dimen>
+    <dimen name="dialog_enter_name_of_the_recording_text_size">23sp</dimen>
+
+</resources>

@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">AudioNotebook</string>
+
+    <string name="main_screen_title">Ваши записи</string>
+    <string name="slash_char">\\</string>
+    <string name="example_record_name">Запись</string>
+    <string name="example_record_date">02.03.23 11:30</string>
+    <string name="example_record_full_time">00:00</string>
+    <string name="example_record_played_time">00:00</string>
+    <string name="enter_record_name">Введите название записи</string>
+    <string name="no_recordings">Здесь пока ничего нет... \nСоздайте новую запись, и она появится на этом экране!</string>
+    <string name="default_recording_name">Audio</string>
+
+</resources>
